@@ -1,0 +1,30 @@
+{
+    "baseURL": "https://fapi.binance.com",
+    "wsURL": "wss://fstream.binance.com",
+    "xhBaseUrl":"https://api1.binance.com",
+    "xhWsURL":"wss://stream.binance.com:9443",
+    "beFollowed": {
+        "apiKey": "",
+        "apiSecret": ""
+    },
+    "env": "dev",
+    "listenPort": 3001,
+    "proxy": "1087",
+    "proxyIp": "127.0.0.1",
+    "type":"xh",
+    "follower": [
+        {
+            "userapikey": "",
+            "usersecretkey": "",
+            "userid": 10001,
+            "isRun": true,
+            "coinMax": 20,
+            "ip": "127.0.0.1",
+            "oderNo": "10001",
+            "coins": [
+                "ETHUSDT",
+                "BTCUSDT"
+            ]
+        }       
+    ]
+}
